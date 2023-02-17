@@ -18,6 +18,12 @@ body {
     width: 1200px;
 }
 
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .header-navegation {
     display: inline-flex;
     position: static;
@@ -206,7 +212,8 @@ footer {
     color: var(--secondary-text-color);
 }
 
-.our-equip {
+.container-our-equip {
+
     background-color: rgb(245, 244, 250);
 }
 
