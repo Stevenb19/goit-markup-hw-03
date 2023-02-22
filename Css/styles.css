@@ -74,6 +74,7 @@ h1 {
     white-space: pre-line;
     text-align: center;
     letter-spacing: 0.06em;
+    flex-direction: column;
 
 }
 
@@ -103,13 +104,16 @@ h1 {
 }
 
 button {
-    background: light-gray;
+    justify-content: center;
+    background: rgb(245, 244, 250);
     color: black;
-    cursor: pointer
+    cursor: pointer;
+    border: none;
+    justify-items: center;
 }
 
 button:hover {
-    background: blue;
+    background: var(--accent-color);
     color: white;
     cursor: pointer
 }
@@ -167,6 +171,11 @@ footer {
     text-decoration: none;
     background-color: rgb(47, 48, 58);
     color: aliceblue;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    margin-bottom: 9px;
 }
 
 .logo-header {
@@ -176,6 +185,7 @@ footer {
     box-shadow: none;
     text-decoration: none;
     border-radius: 0%;
+    margin-right: 93px;
 }
 
 .logo-footer {
@@ -225,6 +235,6 @@ footer {
 }
 
 .botones-nav {
-    text-align: center;
     display: inline-flex;
+
 }
