@@ -290,12 +290,28 @@ footer {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.item {
-    display: block;
-    text-align: center;
+.max-container-item {
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
-.item :hover {
+.container-products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.item-container {
+    width: 370px;
+    height: 440px;
+    display: inline-grid;
+    padding-left: 120px;
+
+}
+
+.item-container :hover {
     cursor: pointer;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
