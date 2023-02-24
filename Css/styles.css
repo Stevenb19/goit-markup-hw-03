@@ -21,6 +21,13 @@ aside {
     box-sizing: unset;
 }
 
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
 h2 {
     text-align: center;
     font-size: 32px;
@@ -28,24 +35,30 @@ h2 {
 }
 
 .header-navegation {
-    display: inline-flex;
-    padding-right: 0%;
+    display: flex;
+
 }
 
 .header-menu-list {
     display: inline-flex;
+    padding: 0%;
+    margin: 0%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 53px;
+    margin-left: 93px;
     padding-top: 18px;
 
 }
 
-.header-link {
-    margin: 25px;
-    margin-left: 0%;
-}
+
 
 .header-contact-list {
     display: inline-flex;
-    padding-top: 18px;
+    padding: 0%;
+    margin: 0%;
+    gap: 50px;
+    margin-left: auto;
 
 }
 
@@ -54,12 +67,11 @@ h3 {
 }
 
 .section-details {
-    padding-left: 215px;
-    padding-right: 215px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 1170px;
+    height: 122px;
+    margin-top: 94px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -85,14 +97,27 @@ h3 {
     height: 101px;
 }
 
+.container-a-que-nos-dedicamos {
+    width: 1173.16px;
+    height: 425px;
+    margin-bottom: 94px;
+    margin-top: 94px;
+}
+
 .images-a-que-nos-dedicamos {
     display: flex;
-    padding-left: 215px;
-    padding-right: 215px;
-    padding-top: 30px;
-    padding-bottom: 94px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
 }
+
+.header-email {
+    line-height: 80px;
+}
+
+.header-phone {
+    line-height: 80px;
+}
+
 
 .info-header-email {
     text-decoration: none;
@@ -106,7 +131,6 @@ h3 {
 .info-header-phone {
     text-decoration: none;
     color: var(--secondary-text-color);
-    margin-left: 50px;
 }
 
 .info-header-phone:hover {
@@ -160,15 +184,17 @@ h1 {
 }
 
 .container-buttons {
-    margin-left: 680px;
-    padding-top: 80px;
-    padding-bottom: 30px;
+    margin top: 94px;
+    margin bottom: 50px;
 }
 
 .botones-nav {
-    width: 611px;
+    height: 38px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 34px;
+    gap: 8px;
 }
 
 button {
@@ -181,6 +207,7 @@ button {
     padding-bottom: 6px;
     padding-left: 25px;
     padding-right: 25px;
+    border-radius: 5px;
 }
 
 button:hover {
@@ -195,7 +222,11 @@ button:active {
     cursor: pointer
 }
 
-.info-aside {
+.products {
+    margin-bottom: 94px;
+}
+
+.poster .info-aside {
     color: rgb(2, 2, 2);
     text-decoration: none;
 }
@@ -209,9 +240,14 @@ button:active {
 }
 
 header {
-    display: inline;
-    padding-left: 215px;
-    padding-right: 215px;
+    height: 80px;
+    border-bottom: 1px solid #ececec;
+}
+
+.header-menu-item {
+    width: 60px;
+    text-align: center;
+
 }
 
 .header-link {
@@ -240,12 +276,19 @@ footer {
     text-decoration: none;
     background-color: rgb(47, 48, 58);
     color: aliceblue;
+    height: 252px;
+}
+
+.footer-container {
     display: flex;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 215px;
-    padding-right: 215px;
-    margin-bottom: 9px;
+    flex-direction: column;
+    padding-top: 64px;
+}
+
+address {
+    width: 231px;
+    height: 92px;
+
 }
 
 .logo-header {
@@ -254,10 +297,7 @@ footer {
     font-size: 26px;
     box-shadow: none;
     text-decoration: none;
-    border-radius: 0%;
-    margin-right: 93px;
-    padding-top: 24px;
-    padding-left: 215px;
+    line-height: 80px;
 }
 
 .logo-footer {
@@ -280,37 +320,25 @@ footer {
 
 
 
-.container-our-equip {
-
+.special-container {
     background-color: rgb(245, 244, 250);
 }
 
 .miembros {
-    padding-left: 215px;
-    padding-right: 215px;
+    width: 1200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-bottom: 45px;
 }
 
-.primer-miembro {
-    width: 270px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+.miembros-container {
+    width: 230px;
+    height: 320px;
+    border: 1px solid #ececec;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 
-.segundo-miembro {
-    width: 270px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.tercer-miembro {
-    width: 270px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.cuarto-miembro {
-    width: 270px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .item {
@@ -318,6 +346,9 @@ footer {
     flex-direction: column;
     padding-bottom: 30px;
     padding-top: 30px;
+    justify-content: space-between;
+    border: 1px #c92222;
+
 }
 
 .item :hover {
@@ -330,6 +361,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 215px;
-    padding-right: 215px;
+    border: 3%;
+    #c92222;
+
 }
