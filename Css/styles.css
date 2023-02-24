@@ -23,12 +23,6 @@ h2 {
     padding: 40px;
 }
 
-.container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .header-navegation {
     display: inline-flex;
     padding-right: 0%;
