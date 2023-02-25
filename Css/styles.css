@@ -97,14 +97,13 @@ h3 {
 
 .container-a-que-nos-dedicamos {
     width: 1173.16px;
-    height: 425px;
-    margin-bottom: 94px;
-    margin-top: 94px;
+    margin: auto;
+    padding-bottom: 94px;
 }
 
 .images-a-que-nos-dedicamos {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
@@ -357,6 +356,8 @@ address {
     justify-content: space-between;
     justify-content: space-between;
     cursor: pointer;
+
+
 
 }
 
