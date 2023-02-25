@@ -183,11 +183,6 @@ h1 {
     cursor: pointer
 }
 
-.container-buttons {
-    margin top: 94px;
-    margin bottom: 50px;
-}
-
 .botones-nav {
     height: 38px;
     display: flex;
@@ -315,7 +310,8 @@ address {
 
 .section-details-p {
     color: var(--secondary-text-color);
-
+    margin-top: 20px;
+    margin-left: 24px;
 }
 
 
@@ -341,19 +337,17 @@ address {
 
 }
 
+
 .item {
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
-    padding-top: 30px;
     justify-content: space-between;
-    border: 1px #c92222;
-
-}
-
-.item :hover {
+    border-width: 1px;
+    border-color: #eeeeee;
+    border-style: solid;
+    margin-bottom: 10px;
     cursor: pointer;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .max-container-item {
@@ -361,7 +355,20 @@ address {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 3%;
-    #c92222;
+    justify-content: space-between;
+    cursor: pointer;
 
+}
+
+.item:hover {
+    box-shadow: 0 0 10px #444444;
+}
+
+.max-container-item :hover {
+    cursor: pointer;
+}
+
+.section-details-s {
+    margin-top: 20px;
+    margin-left: 24px;
 }
