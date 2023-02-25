@@ -314,7 +314,9 @@ address {
     margin-left: 24px;
 }
 
-
+.section-parraf {
+    color: var(--secondary-text-color);
+}
 
 .special-container {
     background-color: rgb(245, 244, 250);
